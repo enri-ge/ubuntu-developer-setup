@@ -1,0 +1,3 @@
+gimp						install
+gimp-data					install
+libgimp2.0					install
