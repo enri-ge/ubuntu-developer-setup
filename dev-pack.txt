@@ -1,0 +1,17 @@
+gimp
+git
+grep
+info
+init
+kmod
+make
+mtools
+nano
+nautilus
+netbase
+npm
+openssl
+ruby
+snapd
+sudo
+wine-stable
