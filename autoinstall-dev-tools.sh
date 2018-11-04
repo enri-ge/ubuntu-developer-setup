@@ -40,12 +40,13 @@ case $1 in
     echo "**********************"
     echo "* Packages installed *"
     echo "**********************"
-    diff dev-pack.txt package.txt -u | grep -v "^\+" | grep -v "^\-" | grep -v "^\@@"
+    diff dev-pack.txt package.txt -u | grep -v '^\+' | grep -v "^\-" | grep -v '^\@@'
     echo
     echo "**********************"
     echo "* Package to install *"
     echo "**********************"
-    diff dev-pack.txt package.txt -u | grep -v "^\+" | grep -e "^\-" | grep -v "^\---"
+    diff dev-pack.txt package.txt -u | grep -v '^\+' | grep -e "^\-" | grep -v '^\---'
+    diff dev-pack.txt package.txt -u | grep -v '^\+' | grep -e "^\-" | grep -v '\dev-pack.txt' > toinst.txt
     echo
     rm package.txt
   ;;
