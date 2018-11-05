@@ -2,7 +2,8 @@
 
 <p><img src="https://assets.ubuntu.com/v1/79439f53-Dell_XPS_Laptop_Front-Developer.png?w=600" alt="developers"></p>
 
-<p>Installa in automatico i seguenti pacchetti</p>
+<p>Installa in automatico i seguenti pacchetti:</p>
+
 apache2
 apache2-utils
 libapache2-mod-php
