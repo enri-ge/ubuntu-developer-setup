@@ -10,9 +10,9 @@ do
     #if [[ $readLine = ruby* ]] ; then
         echo "$readLine"
         read line
-      #  readLine=$line
+      readLine=$line
       #  if [[ $readLine = sudo* ]] ; then
-      #      echo "$readLine"
+      echo "$readLine"
       #  fi
     # fi
 done < "$filename"
