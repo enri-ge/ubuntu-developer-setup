@@ -29,3 +29,4 @@ nodejs
 mysql-server
 mysql-workbench
 atom
+code

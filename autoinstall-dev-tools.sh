@@ -59,6 +59,8 @@ case $1 in
         echo
         echo --- Add ubuntu repository ---
         sudo add-apt-repository -y ppa:webupd8team/atom
+        sudo wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+        sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
         # update and upgrade
         echo
         echo --- ubuntu update ---
